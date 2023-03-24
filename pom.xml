@@ -21,6 +21,9 @@
         <java.version>17</java.version>
         <maven-enforcer-plugin.version>3.0.0</maven-enforcer-plugin.version>
         <tidy-maven-plugin.version>1.1.0</tidy-maven-plugin.version>
+        <logstash-logback-encoder.version>7.3</logstash-logback-encoder.version>
+        <logbook-spring-boot-autoconfigure.version>2.16.0</logbook-spring-boot-autoconfigure.version>
+        <logbook-netty.version>2.16.0</logbook-netty.version>
     </properties>
 
     <dependencies>
@@ -45,7 +48,6 @@
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
-
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
